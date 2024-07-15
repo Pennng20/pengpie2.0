@@ -1,0 +1,18 @@
+.banner{
+    background-color: #F4C9C9;
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-pic{
+    width: 1690px;
+    padding-bottom: 80px;
+}
+.banner .banner-pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+@media screen and (max-width: 430px) {
+    .banner .banner-pic{
+        padding-bottom: 50px;
+    }
+}

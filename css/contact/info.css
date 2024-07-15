@@ -1,0 +1,330 @@
+.contact{
+    background-color: #F4C9C9;
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.contact .container .title-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713;
+    padding-top:60px;
+}
+.contact .title-info h2{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin: 0;
+    padding-right: 10px;
+    color: #644713;
+}
+.contact .title-info span{
+    color: #644713;
+}
+.contact .container .text {
+    font-size: 18px;
+    padding: 80px 0 100px 0;
+    color: #4F0000;
+}
+.contact .container .bac{
+    width: 1080px;
+    height: 740px;
+    background-color: #FBE9E9;
+    border-radius: 70px;
+}
+.contact .container .list-group{
+    width: 100%;
+    padding:80p 40px;
+    display: flex;
+}
+.contact .container .list-group .list-title{
+    width: 40%;
+}
+.contact .container .list-group .list-title .pic{
+    padding-top: 80px;
+}
+.contact .container .list-group .list-title .title{
+    font-size: 46px;
+    letter-spacing: 2px;
+    padding: 20px 0 220px 0;
+    color: #644713;
+}
+.contact .container .list-group .list-title .num-group span{
+    display: block;
+    text-align: left;
+    padding-left: 120px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #644713;
+}
+.contact .container .list-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .container .list-info .name{
+    display: block;
+    font-size: 18px;
+    color: #644713;
+    line-height: 80px;
+    width: 60%;
+    padding-top: 80px;
+}
+.contact .container .list-info span{
+    display: block;
+}
+label{
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    vertical-align:top;
+    padding: 9px 0;
+    color: #644713;
+}
+label input[type="text"] {
+    border: 1px solid #644713;
+    border-radius: 12px;
+    padding: 10px 30px;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.max input[type="text"] {
+    border: 1px solid #644713;
+    border-radius: 12px;
+    padding: 0 30px;
+    height: 150px;
+    margin-left: 10px;
+    font-size: 14px;
+    vertical-align:top;
+}
+.button input[type="button"] {
+    padding: 10px 18px; 
+    font-size: 16px; 
+    border: 1px solid #644713;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    border-radius: 20px; 
+    cursor: pointer; 
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.button input[type="button"]:hover{
+    background-color: #e88686; 
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .contact .container{
+        width: 90%;
+    }
+    .contact .container .title-info {
+        margin: 0 auto;
+        display: inline-block;
+        border-bottom: 2px solid #644713; 
+        text-align: center;
+        padding-top: 50px;
+    }
+    .contact .title-info h2{
+        display: inline;
+        font-size: 24px;
+        color: #644713;
+    }
+    .contact .title-info span{
+        font-size: 16px;
+        color: #644713;
+    }
+    .contact .container .text {
+        font-size: 18px;
+        padding: 60px 0 60px 0;
+        color: #4F0000;
+    }
+    .contact .container .bac{
+        width: 700px;
+        height: 660px;
+        background-color: #FBE9E9;
+        border-radius: 50px;
+    }
+    .contact .container .list-group{
+        padding:0;
+        display: flex;
+    }
+    .contact .container .list-group .list-title{
+        width: 40%;
+    }
+    .contact .container .list-group .list-title .pic{
+        width: 200px;
+        padding-top: 80px;
+        padding-left: 20px;
+        margin: auto;
+    }
+    .contact .container .list-group .list-title .pic img{
+        width: 100%;
+    }
+    .contact .container .list-group .list-title .title{
+        font-size: 28px;
+        letter-spacing: 1px;
+        padding: 26px 0 180px 0;
+        color: #644713;
+    }
+    .contact .container .list-group .list-title .num-group span{
+        display: block;
+        text-align: left;
+        padding-left: 70px;
+        line-height: 40px;
+        letter-spacing: 1px;
+        font-size: 18px;
+        color: #644713;
+    }
+    .contact .container .list-info .name{
+        display: block;
+        font-size: 18px;
+        color: #644713;
+        line-height: 20px;
+        width: 60%;
+        padding-top: 80px;
+    }
+    .contact .container .list-info span{
+        display: block;
+    }
+    label{
+        font-size: 18px;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        vertical-align:top;
+        padding:0;
+        margin-bottom: 10px;
+        color: #644713;
+    }
+    label input[type="text"] {
+        border: 1px solid #644713;
+        border-radius: 12px;
+        padding: 10px 10px;
+        margin-left: 0px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .max input[type="text"] {
+        border: 1px solid #644713;
+        border-radius: 12px;
+        padding:0 10px;
+        height: 150px;
+        margin-left: 10px;
+        font-size: 14px;
+        vertical-align:top;
+    }
+    .button input[type="button"] {
+        padding: 10px 16px; 
+        font-size: 16px; 
+        border: 1px solid #644713;
+        background-color: #ffffff; 
+        color: rgb(0, 0, 0);
+        border-radius: 20px; 
+        cursor: pointer; 
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .contact .container{
+        width: 80%;
+        margin: auto;
+    }
+    .contact .container .text {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        padding: 40px 0 60px 0;
+        color: #4F0000;
+    }
+    .contact .container .bac{
+        width: 360px;
+        height: 520px;
+        background-color: #FBE9E9;
+        border-radius: 30px;
+    }
+    .contact .container .list-group{
+        display: block;
+        margin: auto;
+    }
+    .contact .container .list-group .list-title{
+        padding: 0;
+        margin: 0;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .contact .container .list-group .list-title .pic{
+        width: 120px;
+        padding-top: 0;
+        padding-left: 0;
+        margin: auto;
+    }
+    .contact .container .list-group .list-title .pic img{
+        width: 100%;
+    }
+    .contact .container .list-group .list-title .title{
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding:0;
+        margin: 0;
+        padding-top: 20px;
+        color: #644713;
+        text-align: center;
+    }
+    .contact .container .list-group .list-title .num-group span{
+        display: none;
+    }
+    .contact .container .list-info .name{
+        display: block;
+        width: 100%;
+        margin: auto;
+        font-size: 14px;
+        color: #644713;
+        padding-top: 40px;
+        padding-left: 74px;
+    }
+    label{
+        cursor: pointer;
+        text-align: center;
+        vertical-align:top;
+        padding:0;
+        margin: 0;
+        color: #644713;
+    }
+    label input[type="text"] {
+        border: 1px solid #644713;
+        border-radius: 12px;
+        padding: 6px 6px;
+        margin-left: 10px;
+        font-size: 12px;
+        margin-bottom: 30px;
+        width: 120px;
+    }
+    .max input[type="text"] {
+        border: 1px solid #644713;
+        border-radius: 12px;
+        padding: 6px 8px;
+        margin-left: 10px;
+        font-size: 12px;
+        vertical-align:top;
+        width: 120px;
+        height: 60px;
+    }
+    .button input[type="button"] {
+        padding: 6px 18px; 
+        font-size: 12px; 
+        border: 1px solid #644713;
+        background-color: #ffffff; 
+        color: rgb(0, 0, 0);
+        border-radius: 20px; 
+        cursor: pointer; 
+        margin-left: 170px;
+        padding-top: 40px;
+    }
+}

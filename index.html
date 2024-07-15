@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengpie烘焙甜點店</title>
+    <link rel="stylesheet" href="css/home/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/lightbox.js"></script>
+
+    <style>
+        @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+        body {
+            font-family: "cwTeXYen", sans-serif;
+        }
+
+        .homefooter {
+            background-image: url(img/index/footer/bac.png);
+        }
+
+        @media screen and (max-width: 768px) {
+            .homefooter {
+                background-image: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 200,
+        });
+        AOS.init({
+            anchorPlacement: 'top-bottom', 
+        });
+    </script>
+
+    <!--燈箱-->
+    <section class="lightbox" id="lightBox">
+        <div class="container">
+            <div class="title-info">
+                <h2>會員登入</h2><span>Member login</span>
+            </div>
+            <div class="item">
+                <div class="close" id="close">
+                    <img src="img/login/close.png" alt="">
+                </div>
+                <div class="account">
+                    <label for="">帳號 :</label>
+                    <input type="text">
+                </div>
+                <div class="account">
+                    <label for="">密碼 :</label>
+                    <input type="text">
+                </div>
+                <div class="button">
+                    <input type="button" value="登入">
+                </div>
+                <div class="other">
+                    <span>忘記密碼</span>
+                    <span>使用其他方式登入</span>
+                </div>
+                <div class="community">
+                    <div class="pic">
+                        <img src="img/login/google.png" alt="">
+                        <img src="img/login/fb.png" alt="">
+                        <img src="img/login/line.png" alt="">
+                    </div>
+                </div>
+                <div class="register">
+                    <span>還不是會員嗎?</span>
+                    <span>註冊帳號</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 導覽列 -->
+    <header class="homeheader">
+        <div class="pic">
+            <img src="img/index/header/bac.png" alt="導覽背景">
+        </div>
+        <div class="Mainmenus">
+            <div class="icon" data-aos="zoom-in" data-aos-anchor=".trigger-logo">
+                <div class="trigger-logo"></div>
+                <a href="about.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/chef.png" alt="關於我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="about.html">關於我們</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="news.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/new2.png" alt="最新消息">
+                    </div>
+                    <div class="icon-text">
+                        <a href="news.html">最新消息</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="Ingredient.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/milk2.png" alt="原料介紹">
+                    </div>
+                    <div class="icon-text">
+                        <a href="Ingredient.html">原料介紹</a>
+                    </div>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <div class="icon-logo">
+                        <img src="img/index/header/s-logo.png" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="product.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header//cake (2).png" alt="商品列表">
+                    </div>
+                    <div class="icon-text">
+                        <a href="product.html">商品列表</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="contact.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/email2.png" alt="聯絡我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="contact.html">聯絡我們</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="second">
+            <div class="icon">
+                <div class="icon-pic" id="btnLogin">
+                    <img src="img/index/header/login3.png" alt="登入">
+                </div>
+            </div>
+            <div class="icon">
+                <div class="icon-pic">
+                    <a href="shopping.html"><img src="img/index/header/shopping3.png" alt="購物車"></a>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" name="" id="menu-switch">
+        <!-- <div class="main-header"> -->
+        <label for="menu-switch" class="hb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="main-nav">
+            <a href="about.html">關於我們</a>
+            <a href="news.html">最新消息</a>
+            <a href="Ingredient.html">原料介紹</a>
+            <a href="product.html">商品列表</a>
+            <a href="contact.html">聯絡我們</a>
+        </div>
+        <!-- </div> -->
+    </header>
+    <!-- 首頁大圖 -->
+    <section class="homebanner">
+        <div class="banner" data-aos="fade-up" data-aos-anchor-placement="top-bottom" translate="0.3s">
+            <div class="pic">
+                <img src="img/index/banner/banner.png" alt="">
+            </div>
+            <div class="text-group">
+                <div class="text">為你的特別日子</div>
+                <div class="text2">增添華麗色彩</div>
+            </div>
+        </div>
+    </section>
+    <!-- 首頁news -->
+    <section class="news">
+        <div class="container">
+            <div class="title-info">
+                <h2>最新消息</h2><span>NEWS</span>
+            </div>
+            <div class="item-list">
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/new/item.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="date">
+                            <span>2024</span>
+                            <span>03/22</span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="text">麝香葡萄季開跑囉！</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/new/item2.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="date">
+                            <span>2024</span>
+                            <span>06/26</span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="text">購買6吋生日蛋糕享8折優惠！</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/new/item1.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="date">
+                            <span>2024</span>
+                            <span>09/16</span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="text">提拉米蘇無限期停售</div>
+                    </div>
+                </div>
+            </div>
+            <a href="news.html">
+                <div class="button">
+                    More
+                    <span>➜</span>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- 首頁關於我們 -->
+    <section class="about">
+        <div class="container">
+            <div class="about-info">
+                <h2>關於我們</h2><span>ABOUT US</span>
+            </div>
+            <div class="item-list">
+                <div class="item">
+                    <div class="item-pic" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                        <img src="img/index/about/11.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <span>PENGPIE</span>
+                        <p>PENGPIE重視能夠一同分享的溫暖感受，結合生活土地上的元素，使用當季新鮮的材料，於傳統中解構更新，呈現鮮明的季節時令感，創造一個能夠滿足現代人們對於甜品的需求與想像的甜點城堡。</p>
+                    </div>
+                </div>
+                <div class="item blue">
+                    <div class="item-text">
+                        <span>DESSERT</span>
+                        <p>以甜點都是咖啡店中飲品的配角，我們沒有特地去
+                            甜點店吃蛋糕這樣的習慣與環境，因此非常想成立以
+                            「甜點」為主角的店。</p>
+                    </div>
+                    <div class="item-pic" data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                        <img src="img/index/about/22.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <a href="about.html">
+                <div class="button">
+                    More
+                    <span>➜</span>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- 首頁菜單 -->
+    <section class="menu">
+        <div class="container">
+            <div class="menu-info">
+                <h2>菜單</h2><span>MENU</span>
+            </div>
+            <div class="item-list">
+                <div class="button-left" id="button-left">
+                    <img src="img/index/new/arrow3.png" alt="">
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/menu/MENU.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="name">焦糖奶油布丁</div>
+                        <div class="price">$80元</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/menu/MENU2.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="name">草莓千層伯爵蛋糕</div>
+                        <div class="price">$ 180 / 片</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/menu/MENU3.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="name">澎派草莓塔(6吋)</div>
+                        <div class="price">$480元</div>
+                    </div>
+                </div>
+                <div class="button-right" id="button-right">
+                    <img src="img/index/new/arrow3left.png" alt="">
+                </div>
+            </div>
+            <a href="product.html">
+                <div class="button">
+                    More
+                    <span>➜</span>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- 首頁工作室 -->
+    <section class="atelier">
+        <div class="container">
+            <div class="atelier-info">
+                <h2>工作室</h2><span>ATELIER</span>
+            </div>
+            <div class="item-list">
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/atelier/atelier.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/atelier/atelier2.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/atelier/atelier3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="button-group">
+                <div class="button-atelier">
+                </div>
+                <div class="button-atelier">
+                </div>
+                <div class="button-atelier">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 頁尾 -->
+    <footer>
+        <div class="homefooter">
+            <div class="footer-info">
+                <div class="logo">
+                    <img src="img/index/footer/logo.png" alt="">
+                </div>
+                <div class="text-info">
+                    <span>PENGPIE</span>
+                    <span>台北市大安區仁愛路四段280巷16弄11號</span>
+                    <span>OPEN :12:00〜19:00</span>
+                    <span>CLOSE : 每周一</span>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.933864159484!2d121.3038230759253!3d25.00236313956365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681faa9adc186f%3A0x5f52649fa3a8d5e5!2zMzMw5qGD5ZyS5biC5qGD5ZyS5Y2A5Lit5q2j6LevNTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1713074065040!5m2!1szh-TW!2stw"
+                    width="500" height="325" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="text">Copyright©palette All Rights Reserved. 本網站為緯育TibaMe前端工程師班第xx期學員專題作品，本平台僅供學習、展示之用。</div>
+        </div>
+    </footer>
+    <!-- top按鈕 -->
+    <div class="icon-top">
+        <a href="#"><img src="img/index/top.png" alt="icon-top"></a>
+    </div>
+</body>
+
+</html>

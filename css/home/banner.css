@@ -1,0 +1,76 @@
+.homebanner{
+    width: 100%;
+    background-color: #F4C9C9;
+}
+.homebanner .banner {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.homebanner .banner .pic{
+    width: 100%;
+}
+.homebanner .banner .pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.homebanner .banner .text-group{
+    position: absolute;
+    bottom: 420px;
+    right: 220px;
+
+}
+.homebanner .banner .text-group .text{
+    font-size: 60px;
+    margin-left:-150px;
+    color: white;
+    letter-spacing: 6px;
+}
+.homebanner .banner .text-group .text2{
+    font-size: 64px;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 6px;
+    margin-bottom: -20px;
+}
+@media screen and (max-width: 768px) {
+    .homebanner .banner{
+        padding: 0 30px;
+    }
+    .homebanner .banner .pic{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .homebanner .banner{
+        position: relative;
+        padding: 10px;
+    }
+    .homebanner .banner .text-group{
+        position: absolute;
+        right: 50px;
+        bottom: 140px;
+    }
+    .homebanner .banner .text-group .text{
+        font-size: 24px;
+        margin-left:-70px;
+    }
+    .homebanner .banner .text-group .text2{
+        font-size: 24px;
+        margin-top:30px;
+    }
+}
+@media screen and (max-width: 430px){
+    .homebanner .banner .text-group{
+        position: absolute;
+        right: 40px;
+        bottom: 100px;
+        line-height: 14px;
+    }
+        .homebanner .banner .text-group .text{
+        font-size: 20px;
+    }
+    .homebanner .banner .text-group .text2{
+        font-size: 20px;
+    }
+}

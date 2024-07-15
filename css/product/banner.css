@@ -1,0 +1,12 @@
+.banner{
+    background-color: #F4C9C9;
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-pic{
+    width: 1690px;
+}
+.banner .banner-pic img{
+    width: 100%;
+    vertical-align: middle;
+}

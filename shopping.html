@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shopping/index.css">
+    <script src="js/shoppingNum.js"></script>
+    <script src="js/lightbox.js"></script>
+
+    <style>
+    @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    body{font-family: "cwTeXYen", sans-serif;}
+    .homefooter{
+        background-image: url(img/index/footer/bac.png);
+    }
+    @media screen and (max-width: 768px) {
+            .homefooter {
+                background-image: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--燈箱-->
+    <section class="lightbox" id="lightBox">
+        <div class="container">
+            <div class="title-info">
+                <h2>會員登入</h2><span>Member login</span>
+            </div>
+            <div class="item">
+                <div class="close" id="close">
+                    <img src="img/login/close.png" alt="">
+                </div>
+                <div class="account">
+                    <label for="">帳號 :</label>
+                    <input type="text">
+                </div>
+                <div class="account">
+                    <label for="">密碼 :</label>
+                    <input type="text">
+                </div>
+                <div class="button">
+                    <input type="button" value="登入">
+                </div>
+                <div class="other">
+                    <span>忘記密碼</span>
+                    <span>使用其他方式登入</span>
+                </div>
+                <div class="community">
+                    <div class="pic">
+                        <img src="img/login/google.png" alt="">
+                        <img src="img/login/fb.png" alt="">
+                        <img src="img/login/line.png" alt="">
+                    </div>
+                </div>
+                <div class="register">
+                    <span>還不是會員嗎?</span>
+                    <span>註冊帳號</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 導覽列 -->
+    <header class="homeheader">
+        <div class="pic">
+            <img src="img/index/header/bac.png" alt="導覽背景">
+        </div>
+        <div class="Mainmenus">
+            <div class="icon" data-aos="zoom-in" data-aos-anchor=".trigger-logo">
+                <div class="trigger-logo"></div>
+                <a href="about.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/chef.png" alt="關於我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="about.html">關於我們</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="news.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/new2.png" alt="最新消息">
+                    </div>
+                    <div class="icon-text">
+                        <a href="news.html">最新消息</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="Ingredient.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/milk2.png" alt="原料介紹">
+                    </div>
+                    <div class="icon-text">
+                        <a href="Ingredient.html">原料介紹</a>
+                    </div>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <div class="icon-logo">
+                        <img src="img/index/header/s-logo.png" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="product.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header//cake (2).png" alt="商品列表">
+                    </div>
+                    <div class="icon-text">
+                        <a href="product.html">商品列表</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="contact.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/email2.png" alt="聯絡我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="contact.html">聯絡我們</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="second">
+            <div class="icon">
+                <div class="icon-pic" id="btnLogin">
+                    <img src="img/index/header/login3.png" alt="登入">
+                </div>
+            </div>
+            <div class="icon">
+                <div class="icon-pic">
+                    <a href="shopping.html"><img src="img/index/header/shopping3.png" alt="購物車"></a>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" name="" id="menu-switch">
+        <!-- <div class="main-header"> -->
+        <label for="menu-switch" class="hb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="main-nav">
+            <a href="about.html">關於我們</a>
+            <a href="news.html">最新消息</a>
+            <a href="Ingredient.html">原料介紹</a>
+            <a href="product.html">商品列表</a>
+            <a href="contact.html">聯絡我們</a>
+        </div>
+        <!-- </div> -->
+    </header>
+    <!-- 內容 -->
+    <section class="info">
+        <div class="container">
+            <div class="items">
+                <div class="line"></div>
+                <div class="item">
+                    <div class="page" style="background-color: #FEF9F9; border: 2px solid #4F0000; color: #4F0000;">
+                        <span>01</span>
+                    </div>
+                    <div class="text">
+                        <span>購物車</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="page">
+                        <span>02</span>
+                    </div>
+                    <div class="text">
+                        <span>填寫資料</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="page">
+                        <span>03</span>
+                    </div>
+                    <div class="text">
+                        <span>訂單確認</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cars-group">
+                <div class="car">購物車</div>
+                <div class="detail">
+                    <span>商品資訊</span>
+                    <span>優惠</span>
+                    <span>單件價格</span>
+                    <span>數量</span>
+                    <span>小計</span>
+                </div>
+                <div class="cakes">
+                    <div class="info">
+                        <div class="pic">
+                            <img src="img/shopping/cake.png" alt="">
+                        </div>
+                        <div class="name">
+                            <span>滿滿草莓蛋糕</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>NT$1,800</span>
+                        <span>NT$2,100</span>
+                    </div>
+                    <div class="quantity-input">
+                        <button class="decrease">-</button>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" max="10">
+                        <button class="increase">+</button>
+                    </div>
+                    <div class="subtotal">
+                        <span>小計</span>
+                        <span>NT$1,800</span>
+                    </div>
+                    <div class="close">
+                        <div class="pic">
+                            <img src="img/shopping/close.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="gift">
+                    <div class="info">
+                        <div class="pic">
+                            <img src="img/shopping/dish.png" alt="">
+                        </div>
+                        <div class="name">
+                            <span>贈品</span>
+                            <span>盤叉／蛋糕刀</span>
+                        </div>
+                    </div>
+                    <div class="onsale">
+                        <span>任選優惠</span>
+                        <span>蛋糕附贈盤叉與蛋糕刀</span>
+                    </div>
+                    <div class="price">
+                        <span>NT$0</span>
+                    </div>
+                    <div class="num">
+                        <span>1</span>
+                    </div>
+                    <div class="subtotal">
+                        <span>小計NT$0</span>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="text">
+                        <span>限到店取貨</span>
+                        <span>運費NT$0</span>
+                        <span>總計NT$ 1,800</span>
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <a href="">下一步 : 填寫資料</a>
+            </div>
+        </div>
+    </section>
+    <!-- 頁尾 -->
+    <footer>
+        <div class="homefooter">
+            <div class="footer-info">
+                <div class="logo">
+                    <img src="img/index/footer/logo.png" alt="">
+                </div>
+                <div class="text-info">
+                    <span>PENGPIE</span>
+                    <span>台北市大安區仁愛路四段280巷16弄11號</span>
+                    <span>OPEN :12:00〜19:00</span>
+                    <span>CLOSE : 每周一</span>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.933864159484!2d121.3038230759253!3d25.00236313956365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681faa9adc186f%3A0x5f52649fa3a8d5e5!2zMzMw5qGD5ZyS5biC5qGD5ZyS5Y2A5Lit5q2j6LevNTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1713074065040!5m2!1szh-TW!2stw" width="500" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>                
+            <div class="text">Copyright©palette All Rights Reserved. 本網站為緯育TibaMe前端工程師班第xx期學員專題作品，本平台僅供學習、展示之用。</div>   
+        </div>        
+    </footer>
+    <!-- top按鈕 -->
+    <div class="icon-top">
+        <a href="#"><img src="img/index/top.png" alt="icon-top"></a>
+    </div>
+</body>
+</html>

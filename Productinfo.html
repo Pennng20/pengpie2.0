@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengpie烘焙甜點店</title>
+    <link rel="stylesheet" href="css/Productinfo/index.css">
+    <script src="js/showLarge.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/pull.js"></script>
+
+    <style>
+    @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    body{font-family: "cwTeXYen", sans-serif;}
+        .homefooter{
+            background-image: url(img/index/footer/bac.png);
+        }
+        @media screen and (max-width: 768px) {
+        .homefooter {
+            background-image: none;
+        }
+    }
+    </style>
+</head>
+<body>
+    <!--燈箱-->
+    <section class="lightbox" id="lightBox">
+        <div class="container">
+            <div class="title-info">
+                <h2>會員登入</h2><span>Member login</span>
+            </div>
+            <div class="item">
+                <div class="close" id="close">
+                    <img src="img/login/close.png" alt="">
+                </div>
+                <div class="account">
+                    <label for="">帳號 :</label>
+                    <input type="text">
+                </div>
+                <div class="account">
+                    <label for="">密碼 :</label>
+                    <input type="text">
+                </div>
+                <div class="button">
+                    <input type="button" value="登入">
+                </div>
+                <div class="other">
+                    <span>忘記密碼</span>
+                    <span>使用其他方式登入</span>
+                </div>
+                <div class="community">
+                    <div class="pic">
+                        <img src="img/login/google.png" alt="">
+                        <img src="img/login/fb.png" alt="">
+                        <img src="img/login/line.png" alt="">
+                    </div>
+                </div>
+                <div class="register">
+                    <span>還不是會員嗎?</span>
+                    <span>註冊帳號</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 導覽列 -->
+    <header class="homeheader">
+        <div class="pic">
+            <img src="img/about/header/bac2.png" alt="導覽背景">
+        </div>
+        <div class="Mainmenus">
+            <div class="icon" data-aos="zoom-in" data-aos-anchor=".trigger-logo">
+                <div class="trigger-logo"></div>
+                <a href="about.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/chef.png" alt="關於我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="about.html">關於我們</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="news.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/new2.png" alt="最新消息">
+                    </div>
+                    <div class="icon-text">
+                        <a href="news.html">最新消息</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="Ingredient.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/milk2.png" alt="原料介紹">
+                    </div>
+                    <div class="icon-text">
+                        <a href="Ingredient.html">原料介紹</a>
+                    </div>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <div class="icon-logo">
+                        <img src="img/index/header/s-logo.png" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="product.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header//cake (2).png" alt="商品列表">
+                    </div>
+                    <div class="icon-text">
+                        <a href="product.html">商品列表</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="contact.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/email2.png" alt="聯絡我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="contact.html">聯絡我們</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="second">
+            <div class="icon">
+                <div class="icon-pic" id="btnLogin">
+                    <img src="img/index/header/login3.png" alt="登入">
+                </div>
+            </div>
+            <div class="icon">
+                <div class="icon-pic">
+                    <a href="shopping.html"><img src="img/index/header/shopping3.png" alt="購物車"></a>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" name="" id="menu-switch">
+        <!-- <div class="main-header"> -->
+        <label for="menu-switch" class="hb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="main-nav">
+            <a href="#">關於我們</a>
+            <a href="#">最新消息</a>
+            <a href="#">原料介紹</a>
+            <a href="#">商品列表</a>
+            <a href="#">聯絡我們</a>
+        </div>
+        <!-- </div> -->
+    </header>
+<!-- 商品資訊 -->
+<section class="info">
+    <div class="container">
+        <div class="pic-group">
+            <div class="bigpic">
+                <img id="large" src="img/Product info/pic7.png" alt="">
+            </div>
+            <div class="smallpic">
+                <div class="pic-s">
+                    <img src="img/Product info/pic7.png" class="small">
+                </div>
+                <div class="pic-s">
+                    <img src="img/Product info/pic8.png" class="small">
+                </div>
+                <div class="pic-s">
+                    <img src="img/Product info/pic9.png" class="small">
+                </div>
+            </div>
+        </div>
+        <div class="text-group">
+            <div class="title">
+                <p>滿滿草莓蛋糕</p>
+            </div>
+            <div class="work">
+                <span>訂購天數需要3個工作天（不含訂購當天）</span>
+                <span>為保持風味最佳，請於隔日內享用完畢</span>
+            </div>
+            <div class="food">
+                <span>法式杏仁塔/日式修多蛋糕/法朋手製卡士達/金桔鳳梨醬/熱帶水果奶餡(芒果
+                /百香果/香蕉/鳳梨)/新鮮奇異果/新鮮葡萄/新鮮藍莓/新鮮草莓</span>
+            </div>
+            <div class="shop">
+                <div class="item">
+                    <div class="norm">
+                        <span>選擇規格</span>
+                        <select name="" id="">
+                            <option value="">6吋</option>
+                            <option value="">8吋</option>
+                            <option value="">12吋</option>
+                        </select>
+                    </div>
+                    <div class="amount">
+                        <span>訂購數量</span>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </div>
+                    <div class="store">
+                        <span>自取門市</span>
+                        <select name="" id="">
+                            <option value="">仁愛門市</option>
+                            <option value="">忠孝門市</option>
+                            <option value="">和平門市</option>
+                        </select>
+                    </div>
+                    
+                    <label>選擇日期<input type="date"/></label>
+                    <div class="date">
+                        <span>選擇時段</span>
+                        <select name="time" id="">
+                            <option value="">12:00pm</option>
+                            <option value="">13:00pm</option>
+                            <option value="">14:00pm</option>
+                            <option value="">15:00pm</option>
+                            <option value="">16:00pm</option>
+                            <option value="">17:00pm</option>
+                            <option value="">18:00pm</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <span>商品金額 2,100元</span>
+                <span class="big">商品金額 2,100元</span>
+            </div>
+            <div class="botton">
+                <input type="button" value="立即購買">
+                <input type="button" value="加入購物車">
+            </div>        
+        </div>
+    </div>
+</section>
+<!-- 常見問題 -->
+<div class="problem">
+    <div class="container">
+        <div class="title">
+            <span>常見問題</span>
+        </div>
+        <div class="qa-card">
+            <div class="pic">
+                <img src="img/Product info/arrow3left.png" alt="">
+            </div>
+            <span class="question">✦ 若發票資料有誤，如忘記開立統編，怎麼處理？</span>
+            <span class="answer">收到發票七日內（含假日）若資料有誤，需更改抬頭名稱或統一編號，請您於聯絡我們註明要修改的抬頭、統編及發票寄送email地址，客服人員會盡速為您處理（逾期恕不受理）。 </span>
+        </div>
+        <div class="qa-card">
+            <div class="pic">
+                <img src="/img/Product info/arrow3left.png" alt="">
+            </div>
+            <span class="question">✦ 已開立電子發票還可以換為實體發票嗎？</span>
+            <span class="answer">無法為您更換為實體發票。官網消費一律為電子發票，會於結帳後EMAIL至您的信箱，若需實體發票，則限定於門市現場消費。 </span>
+        </div>
+        <div class="qa-card">
+            <div class="pic">
+                <img src="/img/Product info/arrow3left.png" alt="">
+            </div>
+            <span class="question">✦ 若商品有狀況出現，怎麼處理？</span>
+            <span class="answer">如有非人為因素所致之商品損毀、漏寄、或商品出現狀況，請務必當場錄影存證、保留完整商品，第一時間致電或私訊客服人員並留下訂購人資訊，我們將儘快為您處理後續事宜。</span>
+        </div>
+        <div class="qa-card">
+            <div class="pic">
+                <img src="/img/Product info/arrow3left.png" alt="">
+            </div>
+            <span class="question">✦ 產品保存期限？</span>
+            <span class="answer">我們嚴選新鮮食材，皆無添加防腐劑，故賞味期限較短為正常現象。慶祝蛋糕以及新鮮水果類甜點，建議當天（最晚隔天）一定要食用完畢。其餘商品依照商品出貨標籤上日期為準。</span>
+        </div>
+        <div class="qa-card">
+            <div class="pic">
+                <img src="/img/Product info/arrow3left.png" alt="">
+            </div>
+            <span class="question">✦ 原訂單的自取時段無法取貨，該怎麼聯絡通知?</span>
+            <span class="answer">若您的取貨日為同一天，僅延遲取貨時段，將為您保留商品至訂單自取日19:00，無需特別通知，但為保商品新鮮及品質，請您盡量於原定取貨時段前來取貨。</span>
+        </div>
+    </div>
+</div>
+<!-- 頁尾 -->
+<footer>
+    <div class="homefooter">
+        <div class="footer-info">
+            <div class="logo">
+                <img src="img/index/footer/logo.png" alt="">
+            </div>
+            <div class="text-info">
+                <span>PENGPIE</span>
+                <span>台北市大安區仁愛路四段280巷16弄11號</span>
+                <span>OPEN :12:00〜19:00</span>
+                <span>CLOSE : 每周一</span>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.933864159484!2d121.3038230759253!3d25.00236313956365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681faa9adc186f%3A0x5f52649fa3a8d5e5!2zMzMw5qGD5ZyS5biC5qGD5ZyS5Y2A5Lit5q2j6LevNTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1713074065040!5m2!1szh-TW!2stw" width="500" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>                
+        <div class="text">Copyright©palette All Rights Reserved. 本網站為緯育TibaMe前端工程師班第xx期學員專題作品，本平台僅供學習、展示之用。</div>   
+    </div>        
+</footer>
+    <!-- top按鈕 -->
+    <div class="icon-top">
+        <a href="#"><img src="img/index/top.png" alt="icon-top"></a>
+    </div>
+</body>
+</html>

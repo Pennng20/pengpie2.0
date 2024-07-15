@@ -1,0 +1,94 @@
+.atelier{
+    background-color: #F4C9C9;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.container{
+    width: 1200px;
+}
+.atelier .container .atelier-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713; 
+    margin: 58px;
+}
+.atelier .atelier-info h2{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 0px;
+    color: #644713;
+}
+.atelier .atelier-info span{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #644713;
+}
+.atelier .container .item-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.atelier .container .item-list .item{
+    margin: 10px;
+}
+
+.atelier .container .button-group{
+    display: flex;
+    justify-content: center;
+    padding:70px 0 80px 0;
+}
+.atelier .container .button-atelier{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 62.5%;
+    }
+    .atelier .container .atelier-info {
+        margin: 60px auto 20px auto;
+        display: inline-block;
+        border-bottom: 2px solid #644713; 
+        text-align: center;
+    }
+    .atelier .atelier-info h2{
+        display: inline;
+        font-size: 24px;
+        color: #644713;
+    }
+    .atelier .atelier-info span{
+        font-size: 16px;
+        color: #644713;
+    }
+    .atelier .container .button-atelier{
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        background-color: white;
+        margin: 6px;
+        cursor: pointer;
+    } 
+}
+@media screen and (max-width: 430px) {
+    .atelier{
+        height: 480px;
+    }
+    .atelier .container .item-list{
+        height: 240px;
+    }
+    .atelier .container .item-list .item .item-pic {
+        width: 300px;
+        height: 100px;
+    } 
+    .atelier .container .item-list .item .item-pic img{
+        width: 100%;
+    }
+    .atelier .container .button-group{
+        display: flex;
+        justify-content: center;
+        padding:7px 0 0px 0;
+    }
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengpie烘焙甜點店</title>
+    <link rel="stylesheet" href="css/Ingredient/index.css">
+    <script src="js/lightbox.js"></script>
+
+    <style>
+    @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    body{font-family: "cwTeXYen", sans-serif;}
+    .homefooter{
+        background-image: url(img/index/footer/bac.png);
+    }
+    @media screen and (max-width: 768px) {
+        .homefooter {
+            background-image: none;
+        }
+    }
+    </style>
+</head>
+<body>
+    <!--燈箱-->
+    <section class="lightbox" id="lightBox">
+        <div class="container">
+            <div class="title-info">
+                <h2>會員登入</h2><span>Member login</span>
+            </div>
+            <div class="item">
+                <div class="close" id="close">
+                    <img src="img/login/close.png" alt="">
+                </div>
+                <div class="account">
+                    <label for="">帳號 :</label>
+                    <input type="text">
+                </div>
+                <div class="account">
+                    <label for="">密碼 :</label>
+                    <input type="text">
+                </div>
+                <div class="button">
+                    <input type="button" value="登入">
+                </div>
+                <div class="other">
+                    <span>忘記密碼</span>
+                    <span>使用其他方式登入</span>
+                </div>
+                <div class="community">
+                    <div class="pic">
+                        <img src="img/login/google.png" alt="">
+                        <img src="img/login/fb.png" alt="">
+                        <img src="img/login/line.png" alt="">
+                    </div>
+                </div>
+                <div class="register">
+                    <span>還不是會員嗎?</span>
+                    <span>註冊帳號</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 導覽列 -->
+    <header class="homeheader">
+        <div class="pic">
+            <img src="img/about/header/bac2.png" alt="導覽背景">
+        </div>
+        <div class="Mainmenus">
+            <div class="icon" data-aos="zoom-in" data-aos-anchor=".trigger-logo">
+                <div class="trigger-logo"></div>
+                <a href="about.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/chef.png" alt="關於我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="about.html">關於我們</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="news.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/new2.png" alt="最新消息">
+                    </div>
+                    <div class="icon-text">
+                        <a href="news.html">最新消息</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="Ingredient.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/milk2.png" alt="原料介紹">
+                    </div>
+                    <div class="icon-text">
+                        <a href="Ingredient.html">原料介紹</a>
+                    </div>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <div class="icon-logo">
+                        <img src="img/index/header/s-logo.png" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="product.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header//cake (2).png" alt="商品列表">
+                    </div>
+                    <div class="icon-text">
+                        <a href="product.html">商品列表</a>
+                    </div>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="contact.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/email2.png" alt="聯絡我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="contact.html">聯絡我們</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="second">
+            <div class="icon">
+                <div class="icon-pic" id="btnLogin">
+                    <img src="img/index/header/login3.png" alt="登入">
+                </div>
+            </div>
+            <div class="icon">
+                <div class="icon-pic">
+                    <a href="shopping.html"><img src="img/index/header/shopping3.png" alt="購物車"></a>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" name="" id="menu-switch">
+        <!-- <div class="main-header"> -->
+        <label for="menu-switch" class="hb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="main-nav">
+            <a href="about.html">關於我們</a>
+            <a href="news.html">最新消息</a>
+            <a href="Ingredient.html">原料介紹</a>
+            <a href="product.html">商品列表</a>
+            <a href="contact.html">聯絡我們</a>
+        </div>
+        <!-- </div> -->
+    </header>
+    <!-- 大圖 -->
+    <div class="banner">
+        <div class="banner-pic">
+            <img src="img/Ingredient/banner.png" alt="">
+        </div>
+    </div>
+    <!-- 大標題 -->
+    <section class="ingredient-section"> 
+        <div class="container">
+            <div class="title-info">
+                <h2>原料介紹</h2><span>Ingredient</span>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <div class="pic">
+                        <img src="img/Ingredient/milk.png" alt="">
+                    </div>
+                    <div class="text">
+                        <span>牧場直送鮮奶</span>
+                        <span>我們的蛋糕皆使用牧場直送鮮奶，讓您可以享受到原汁原味的牛奶，不經過長途運輸、不添加任何防腐劑或調味劑，安全美味又健康!鮮奶帶來的豐富奶香和濃郁口感，不僅能讓蛋糕口味更加濃郁，也能為整個製作過程增添樂趣和挑戰。鮮奶的添加可以有效地調節整個蛋糕的口感和結構，使其更加均勻和美味!</span>
+                    </div>
+                    <div class="label">
+                        <span>新鮮牛奶</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="pic">
+                        <img src="img/Ingredient/egg.png" alt="">
+                    </div>
+                    <div class="text">
+                        <span>有機健康雞蛋</span>
+                        <span>我們使用來自於健康快樂的家禽，在寬敞的放養場中自由生活，享受新鲜空氣有機飼料，不使用化學劑和生長激素。有機雞蛋富含豐富的營養，每顆都充滿了蛋白質、维生素和礦物質。雞蛋是製作美味蛋糕、餅乾和各種糕點的關鍵食材之一，其優質的蛋白質和豐富的營養價值使其成為廚房中不可或缺的寶藏。</span>
+                    </div>
+                    <div class="label">
+                        <span>有機雞蛋</span>
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="pic">
+                            <img src="img/Ingredient/butter.png" alt="">
+                        </div>
+                        <div class="text">
+                            <span>高品質鮮奶油</span>
+                            <span>我們選用的高級奶油是由優質牛奶經過提煉而成，口感細膩，香濃誘人。我們致力於提供最高品質的奶油，因此我們嚴格採用新鮮牛奶為原料，並採用傳統工藝和先進技術進行加工。無論是搭配甜點、水果，還是用於烹飪和烘焙，我們的高級配料都能為您的美味佳餚增添無限的風味和口感。細膩吸引力。</span>
+                        </div>
+                    <div class="label">
+                        <span>優質奶油</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 頁尾 -->
+    <footer>
+        <div class="homefooter">
+            <div class="footer-info">
+                <div class="logo">
+                    <img src="img/index/footer/logo.png" alt="">
+                </div>
+                <div class="text-info">
+                    <span>PENGPIE</span>
+                    <span>台北市大安區仁愛路四段280巷16弄11號</span>
+                    <span>OPEN :12:00〜19:00</span>
+                    <span>CLOSE : 每周一</span>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.933864159484!2d121.3038230759253!3d25.00236313956365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681faa9adc186f%3A0x5f52649fa3a8d5e5!2zMzMw5qGD5ZyS5biC5qGD5ZyS5Y2A5Lit5q2j6LevNTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1713074065040!5m2!1szh-TW!2stw" width="500" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>                
+            <div class="text">Copyright©palette All Rights Reserved. 本網站為緯育TibaMe前端工程師班第xx期學員專題作品，本平台僅供學習、展示之用。</div>   
+        </div>        
+    </footer>
+    <!-- top按鈕 -->
+    <div class="icon-top">
+        <a href="#"><img src="img/index/top.png" alt="icon-top"></a>
+    </div>
+</body>
+</html>

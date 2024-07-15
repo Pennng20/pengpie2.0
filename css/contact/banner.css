@@ -1,0 +1,13 @@
+.banner{
+    background-color: #FBE9E9;
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-pic{
+    width: 1690px;
+    /* padding-bottom: 80px ; */
+}
+.banner .banner-pic img{
+    width: 100%;
+    vertical-align: middle;
+}

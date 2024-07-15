@@ -1,0 +1,220 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.about-section .title-text{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.about-section .title-text .big{ 
+    font-size: 48px;
+    display: block;
+    padding: 100px 0 80px 0;
+    color: #644713;
+}
+.about-section .title-text .small{
+    font-size: 28px;
+    color: #644713;
+}
+.about-section .cards{
+    width: 100%;
+    padding-top: 80px;
+}
+.about-section .cards .item-list .item{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+.about-section .cards .item-list .item .item-texts .line{
+    border-bottom: 1px solid #4F0000;
+    padding-bottom:6px ;
+    width: 400px;
+}
+.about-section .cards .item-list .item .item-texts .text{
+    padding-top: 6px;
+    width: 420px;
+}
+.about-section .cards .item-list .item .item-texts span:first-child{
+    font-size: 28px;
+}
+.about-section .cards .item-list .item-texts{
+    width: 500px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    align-content: center;
+    font-size: 18px;
+    color: #4F0000;
+}
+.about-section .cards .item-list .item-texts span{
+    width: 500px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    align-content: center;
+    font-size: 22px;
+}
+.about-section .cards .item-list .item .item-pic img{
+    width: 505px;
+    height: 505px;
+    vertical-align: middle;
+    border-radius: 50% 45% 58% 42% / 39% 38% 52% 60%;
+    transition: 0.5s;
+    animation: dog 4s 0s ease-in infinite alternate;
+}
+@keyframes dog {
+    25% {
+        border-radius: 50% 50% 72% 28% / 57% 48% 52% 53%;
+    }
+    50% {
+        border-radius: 70% 50% 46% 44% / 53% 48% 52% 40%;
+    }
+    100% {
+        border-radius: 60% 50% 44% 55% / 65% 56% 55% 35%;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 62.5%;
+    }
+    .about-section .cards .item-list .item .item-pic img{
+        width: 360px;
+        height: 360px;
+        vertical-align: middle;
+        border-radius: 50% 45% 58% 42% / 39% 38% 52% 60%;
+        transition: 0.5s;
+        animation: dog 4s 0s ease-in infinite alternate;
+    }
+    .about-section .title-text .big{ 
+        font-size: 28px;
+        display: block;
+        padding: 60px 0 50px 0;
+        color: #644713;
+    }
+    .about-section .title-text .small{
+        color: #644713;
+        letter-spacing: 0;
+        line-height: 30px;
+        font-size: 26px;
+    }
+    .about-section .cards{
+        width: 100%;
+        padding: 20px 0 80px 0;
+    }
+    .about-section .cards .item-list .item:nth-child(odd){
+        /* display: block; */
+        flex-direction: column-reverse;
+    }
+    .about-section .cards .item-list .item{
+        /* display: none; */
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        margin: 0;
+        margin-top: 50px;
+        border-radius: 50px;
+        background-color: #FFF5F5;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);;
+    }
+    .about-section .cards .item-list .item .item-texts .line{
+        border-bottom: 1px solid #4F0000;
+        padding-bottom: 4px ;
+        width: 210px;
+    }
+    .about-section .cards .item-list .item .item-texts .text{
+        padding-top: 6px;
+        width: 420px;
+    }
+    .about-section .cards .item-list .item .item-texts span:first-child{
+        font-size: 24px;
+    }
+    .about-section .cards .item-list .item-texts span{
+        width: 400px;
+        letter-spacing: 2px;
+        line-height: 36px;
+        align-content: center;
+        font-size: 22px;
+    }
+    .about-section .cards .item-list .item-texts{
+        width: 424px;
+        line-height: 30px;
+        font-size: 16px;
+        color: #4F0000;
+        padding-top: 0;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .container{
+        width: 70%;
+    }
+    .about-section .cards .item-list .item .item-pic img{
+        width: 240px;
+        height: 240px;
+        vertical-align: middle;
+        border-radius: 50% 45% 58% 42% / 39% 38% 52% 60%;
+        transition: 0.5s;
+        animation: dog 4s 0s ease-in infinite alternate;
+    }
+    .about-section .title-text .big{ 
+        font-size: 22px;
+        display: block;
+        padding: 60px 0 50px 0;
+        color: #644713;
+    }
+    .about-section .title-text .small{
+        color: #644713;
+        letter-spacing: 0;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .about-section .cards{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .about-section .cards .item-list .item:nth-child(odd){
+        flex-direction: column-reverse;
+    }
+    .about-section .cards .item-list .item{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px ;
+        margin: 40px 0;
+        margin-top: 40px;
+        border-radius: 50px;
+        background-color: #FFF5F5;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);;
+    }
+    .about-section .cards .item-list .item .item-texts .line{
+        border-bottom: 1px solid #4F0000;
+        padding-bottom: 4px ;
+        width: 180px;
+    }
+    .about-section .cards .item-list .item .item-texts .text{
+        padding-top: 6px;
+        width: 100%;
+    }
+    .about-section .cards .item-list .item .item-texts span:first-child{
+        font-size: 20px;
+    }
+    .about-section .cards .item-list .item-texts span{
+        letter-spacing: 2px;
+        line-height: 36px;
+        align-content: center;
+        font-size: 16px;
+    }
+    .about-section .cards .item-list .item-texts{
+        width: 100%;
+        line-height: 30px;
+        font-size: 16px;
+        color: #4F0000;
+        padding-top: 0;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .about-section .cards .item-list .item:hover{
+        border: 2px solid #4F0000;
+    }
+}

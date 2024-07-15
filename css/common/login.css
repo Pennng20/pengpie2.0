@@ -1,0 +1,96 @@
+.lightbox {
+    background-color: #FBE9E9;
+    border: 1px solid #000000;
+    width: 400px;
+    padding-bottom: 32px;
+    border-radius: 50px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    display: none;
+}
+.lightbox .container {
+    width: 90%;
+    margin: 0 auto;
+}
+.lightbox .container .title-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713;
+    margin: 50px auto;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.lightbox .title-info h2 {
+    display: inline;
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: #644713;
+}
+.lightbox .title-info span {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #644713;
+}
+.lightbox .item {
+    position: relative;
+    text-align: center;
+}
+.lightbox .item .close{
+    position: absolute;
+    right: 8px;
+    top: -110px;
+    cursor: pointer;
+}
+.lightbox .item .account {
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.lightbox .item .account label{
+    text-align: start;
+    padding-left: 85px;
+}
+input[type="text"] {
+    width: 180px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #FEF9F9;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.button input[type="button"] {
+    background-color: #F4C9C9;
+    border: 1px solid black;
+    color: #4F0000;
+    padding: 2px 12px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.button input[type="button"]:hover {
+    background-color: rgb(239, 170, 185);
+    color: #fff;
+}
+.lightbox .item .other span{
+    display: block;
+    margin: 12px auto;
+}
+.lightbox .item .community {
+    padding: 10px 0 20px 0;
+}
+.lightbox .item .community img{
+    margin: 0 4px;
+}
+.lightbox .item .register span{
+    display: block;
+    margin: 10px auto;
+}

@@ -1,0 +1,92 @@
+.login-info{
+    background-color: #F4C9C9;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.login-info .container .title-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713;
+}
+.login-info .title-info h3{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin: 0;
+    padding-right: 10px;
+    color: #644713;
+}
+.login-info .title-info span{
+    color: #644713;
+}
+label{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    padding: 9px 0;
+    color: #644713;
+}
+label input[type="text"] {
+    border: 2px solid #644713;
+    border-radius: 12px;
+    padding: 10px 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+input[type="button"] {
+    display: inline-block;
+    background-color: #F4C9C9;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.login-info .container .bac{
+    width: 760px;
+    height: 760px;
+    background-color: #FBE9E9;
+    border: 1px ;
+    border-radius: 50px;
+    margin: 80px auto 0;
+    position: relative;
+}
+.login-info .container .bac .num-group{
+    padding: 60px 0;
+    text-align: center;
+}
+.login-info .container .bac .other span{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.login-info .container .bac .pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 20px 130px 20px;
+}
+.login-info .container .bac .pic img{
+    padding: 0 10px;
+}
+.login-info .container .bac .register{
+    padding-bottom: 100px;
+}
+.login-info .container .bac .register span{
+    display: block;
+    font-size: 18px;
+    line-height: 40px;
+}
+.login-info .container .bac .cake{
+    position: absolute;
+    left: -70px;
+    bottom: -40px;
+}
+
