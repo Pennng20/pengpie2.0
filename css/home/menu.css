@@ -27,6 +27,15 @@
     justify-content: space-between;
     align-items: center;
 }
+.menu .container .item{
+    width: 300px;
+    padding: 0 10px;
+}
+.menu .container .item-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .menu .container .item-list .item-pic{
     padding-bottom: 55px;
     padding-top: 20px;
@@ -35,6 +44,16 @@
     letter-spacing: 2px;
     line-height: 30px;
     padding-bottom: 80px;
+}
+.menu .container .item-list .watch{
+    overflow: hidden;
+    width: 960px;
+    /* border:1px solid #4F0000; */
+}
+.menu .container .item-list .veiw{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
 }
 .menu .container .item-list .button-left{
     margin-bottom: 150px;
